@@ -1,0 +1,49 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: rgb(34, 34, 34);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+}
+
+.counter{
+    width:50px;
+    min-height: 100%;
+    padding-right: 10px;
+    text-align: right;
+    border: none;
+    resize: none;
+    color: #b0b0b0;
+}
+
+.codeEditor{
+    width: 100%;
+    min-height: 100%;
+    border: none;
+    resize: none;
+    color: #EEEEEE;
+}
+
+.codeEditor:focus{
+    outline: none;
+}
+
+.counter:focus{
+    outline: none;
+}
+
+.keyword{
+    color: hsla(50, 100%, 50%, 1);
+    color : #7F00FF;
+    font-style: italic;
+}
